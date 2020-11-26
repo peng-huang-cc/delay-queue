@@ -46,6 +46,7 @@ func Loop() {
 ```
 
 ### 消费
+
 ```golang
 func (dq *DelayQueue) Consume(slot int, cycleNum int) bool {
 	// 根据消费时间计算消息应该放入的位置
